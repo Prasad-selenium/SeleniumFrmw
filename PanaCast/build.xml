@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Filename: build.xml
+ -->
+<project basedir="." default="run">
+	    <property environment="env"/>
+	    <property name="ws.home" value="${basedir}"/>
+	    <property name="ws.jars" value="${ws.home}\lib"/>
+	    <property name="test.dest" value="${ws.home}\build"/>
+	    <property name="test.src" value="${ws.home}\src"/>
+	    <property name="ng.result" value="${ws.home}\test-output"/>
+		<property name="xslt.report" value="${ws.home}\xsltReports\output"></property>
+		<property name="report" location="${ws.home}\TestResults\index.html"/>
+	
+<!-- Install Jar-->
+	 <target name="installjars" description="Install ANT optional jars">
+	        <mkdir dir="${ws.jars}"/>
+	        <get dest="${ws.jars}/selenium-server-standalone-2.39.0.jar" src="http://selenium.googlecode.com/files/selenium-server-standalone-2.39.0.jar"/>
+	 </target>	
+<!-- Directory name where the TestNG report will be saved. -->
+	
+	<property name="testng.output.dir" value="testng_output"/>
+	
+<!-- Set Class Path -->
+	<target name="setClassPath" unless="test.classpath">
+	    <path id="classpath_jars">
+	        <fileset dir="${ws.jars}" includes="*.jar"/>
+	    </path>
+	    <pathconvert pathsep=":" property="test.classpath" refid="classpath_jars"/>
+	</target>
+	
+<!-- Init-->
+	<target name="init" depends="setClassPath">
+			<tstamp>
+				<format property="start.time" pattern="MM/dd/yyyy hh:mm:aa" />
+			</tstamp>
+			<condition property="ANT" value="${env.ANT_HOME}/bin/ant.bat"
+				else="${env.ANT_HOME}/bin/ant">
+				<os family="windows" />
+			</condition>
+
+			<path id="cp">
+				<pathelement location="${ws.home}\lib\testng-6.8.jar" />
+				<pathelement location="${ws.home}\lib\build" />
+			</path>
+			<echo message="Echo message------------->${ws.home}\lib\" />
+			<taskdef name="testng" classpathref="cp" classname="org.testng.TestNGAntTask" />
+	</target>
+<!--Directory Clean -->
+	
+	<target name="clean">
+	    <delete dir="${test.dest}"/>
+	</target>
+
+<!-- Compile -->
+
+	<target name="compile" depends="init, clean" >
+            <delete includeemptydirs="true" quiet="true">
+    		    <fileset dir="${test.dest}" includes="**/*"/>
+            </delete>
+    <echo message="making directory..."/>
+            <mkdir dir="${test.dest}"/>
+    <echo message="classpath------: ${test.dest}"/>
+    <echo message="compiling..."/>
+    	<javac
+		        debug="true"
+		        destdir="${test.dest}"
+		        srcdir="${test.src}"
+		        target="1.7"
+		        includeantruntime="true"
+		        classpath="${test.classpath}" >
+    </javac>
+  </target>
+	    	
+<!-- Directory path of compiled classes(i.e *.class) -->
+
+	<path id="classes">
+    	 <pathelement location="bin"/>
+  	</path>
+
+<!-- Create the output directory. -->
+	  <target name="run" depends="compile">
+	  <!--  <mkdir dir="${test.dest}"/>-->
+<!-- It will runs all the test scripts-->
+  	
+  	<!--  <testng classpath="${test.classpath}:${test.dest}" >
+  		<classfileset dir="${test.dest}" includes="com/realtytrac/scripts/*.class"/>
+  	</testng>-->
+	  	
+<!-- It runs scripts in testng.xml -->	  	
+		  <testng classpath="${test.classpath}:${test.dest}" suitename="Suite to test Panacast">
+		  	        <xmlfileset dir="${ws.home}" includes="testng.xml"/>
+		  	    </testng>
+ 	</target>
+	
+	<path id="test.c">
+	    <fileset dir="${ws.jars}" includes="*.jar"/>
+	</path>
+	<!-- Sending Mail-->
+	<target name="sendmail">
+	  <mail
+	    tolist="seleniumtest401@gmail.com" from="seleniumtest401@gmail.com" subject="Test Report" mailhost="smtp.gmail.com" mailport="587" ssl="true"
+	    user="seleniumtest401@gmail.com"  password="Test123$">
+	    <message>Test Report</message>
+	  	<attachments>
+	  		 	<fileset dir="${xslt.report}">
+	  		 		<include name="**/*.html"></include>
+	  		 	</fileset>
+	  		 	</attachments>
+	  </mail>
+	</target>
+</project>

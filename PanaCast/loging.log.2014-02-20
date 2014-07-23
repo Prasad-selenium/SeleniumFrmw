@@ -1,0 +1,140 @@
+2014-02-20 10:17:41 INFO  Base:200 - App is Launched
+2014-02-20 10:17:44 INFO  Base:202 - Waiting 3000 seconds
+2014-02-20 10:17:46 INFO  Base:388 - Click on  log_clear 
+2014-02-20 10:17:47 INFO  Base:523 - Click on button
+2014-02-20 10:17:48 INFO  Base:388 - Click on  Record 
+2014-02-20 10:17:50 INFO  Base:319 - Waiting2000
+2014-02-20 10:17:51 INFO  Base:388 - Click on  recording 
+2014-02-20 10:17:52 INFO  Base:523 - Click on button
+2014-02-20 10:17:53 INFO  Base:388 - Click on  App 
+2014-02-20 10:17:54 INFO  Base:388 - Click on  signin 
+2014-02-20 10:17:59 INFO  Base:419 - Entering data in  FN 
+2014-02-20 10:18:03 INFO  Base:419 - Entering data in  LN 
+2014-02-20 10:18:07 INFO  Base:419 - Entering data in  Email 
+2014-02-20 10:18:08 INFO  Base:523 - Click on button
+2014-02-20 10:18:09 INFO  Base:388 - Click on  signin1 
+2014-02-20 10:18:10 INFO  Base:388 - Click on  Startmeeting 
+2014-02-20 10:18:15 INFO  Base:419 - Entering data in  Code 
+2014-02-20 10:18:16 INFO  Base:523 - Click on button
+2014-02-20 12:17:21 INFO  Base:200 - App is Launched
+2014-02-20 12:17:24 INFO  Base:202 - Waiting 3000 seconds
+2014-02-20 12:17:26 INFO  Base:388 - Click on  log_clear 
+2014-02-20 12:17:26 INFO  Base:523 - Click on button
+2014-02-20 12:17:27 INFO  Base:388 - Click on  Record 
+2014-02-20 12:17:29 INFO  Base:319 - Waiting2000
+2014-02-20 12:17:30 INFO  Base:388 - Click on  recording 
+2014-02-20 12:17:31 INFO  Base:523 - Click on button
+2014-02-20 12:17:33 INFO  Base:388 - Click on  App 
+2014-02-20 12:17:37 INFO  Base:523 - Click on button
+2014-02-20 12:17:40 INFO  Base:523 - Click on button
+2014-02-20 12:18:03 INFO  Base:200 - App is Launched
+2014-02-20 12:18:06 INFO  Base:202 - Waiting 3000 seconds
+2014-02-20 12:18:07 INFO  Base:388 - Click on  log_clear 
+2014-02-20 12:18:08 INFO  Base:523 - Click on button
+2014-02-20 12:18:09 INFO  Base:388 - Click on  Record 
+2014-02-20 12:18:11 INFO  Base:319 - Waiting2000
+2014-02-20 12:18:12 INFO  Base:388 - Click on  recording 
+2014-02-20 12:18:13 INFO  Base:523 - Click on button
+2014-02-20 12:18:14 INFO  Base:388 - Click on  App 
+2014-02-20 12:18:15 INFO  Base:388 - Click on  signin 
+2014-02-20 12:18:20 INFO  Base:419 - Entering data in  FN 
+2014-02-20 12:18:24 INFO  Base:419 - Entering data in  LN 
+2014-02-20 12:18:28 INFO  Base:419 - Entering data in  Email 
+2014-02-20 12:18:29 INFO  Base:523 - Click on button
+2014-02-20 12:18:30 INFO  Base:388 - Click on  signin1 
+2014-02-20 12:18:31 INFO  Base:388 - Click on  Startmeeting 
+2014-02-20 12:18:36 INFO  Base:419 - Entering data in  Code 
+2014-02-20 12:18:37 INFO  Base:523 - Click on button
+2014-02-20 12:18:38 INFO  Base:388 - Click on  Startmeeting1 
+2014-02-20 12:19:08 INFO  Base:319 - Waiting30000
+2014-02-20 12:19:08 INFO  Base:586 - Tap on the screen
+2014-02-20 12:19:08 INFO  Base:586 - Tap on the screen
+2014-02-20 12:19:10 INFO  Base:319 - Waiting2000
+2014-02-20 12:19:11 INFO  Base:565 - Flick on the screen
+2014-02-20 12:19:13 INFO  Base:388 - Click on  invite 
+2014-02-20 12:19:14 INFO  Base:388 - Click on  Email1 
+2014-02-20 12:19:16 INFO  Base:388 - Click on  Gmail 
+2014-02-20 12:19:23 INFO  Base:419 - Entering data in  To 
+2014-02-20 12:19:24 INFO  Base:388 - Click on  send 
+2014-02-20 12:19:26 INFO  Base:319 - Waiting2000
+2014-02-20 12:19:31 INFO  Base:178 - Browser opened
+2014-02-20 12:19:34 INFO  Base:180 - Url has opened
+2014-02-20 12:19:34 INFO  Base:182 - Waiting for 10 Seconds
+2014-02-20 12:19:34 INFO  Base:184 - Browser is maximized
+2014-02-20 12:19:36 INFO  Base:319 - Waiting2000
+2014-02-20 12:19:37 INFO  Base:419 - Entering data in  Email2 
+2014-02-20 12:19:38 INFO  Base:419 - Entering data in  password 
+2014-02-20 12:19:40 INFO  Base:388 - Click on  signIn2 
+2014-02-20 12:19:42 INFO  Base:319 - Waiting2000
+2014-02-20 12:19:49 INFO  Base:188 - Page has Refreshed
+2014-02-20 12:19:51 INFO  Base:319 - Waiting2000
+2014-02-20 12:19:56 INFO  Base:188 - Page has Refreshed
+2014-02-20 12:19:59 INFO  Base:388 - Click on  inbox 
+2014-02-20 12:20:01 INFO  Base:319 - Waiting2000
+2014-02-20 12:20:02 INFO  Base:388 - Click on  link 
+2014-02-20 12:20:02 INFO  Base:548 - Text file created successfully
+2014-02-20 12:20:04 INFO  Base:319 - Waiting2000
+2014-02-20 12:20:08 INFO  Base:200 - App is Launched
+2014-02-20 12:20:11 INFO  Base:202 - Waiting 3000 seconds
+2014-02-20 12:20:11 INFO  Base:523 - Click on button
+2014-02-20 12:20:12 INFO  Base:388 - Click on  Recstop 
+2014-02-20 12:20:12 INFO  Base:523 - Click on button
+2014-02-20 12:20:14 INFO  Base:388 - Click on  data 
+2014-02-20 12:20:15 INFO  Base:388 - Click on  Allfiles 
+2014-02-20 12:20:16 INFO  Base:388 - Click on  sdcard 
+2014-02-20 12:20:18 INFO  Base:388 - Click on  logs 
+2014-02-20 12:20:19 INFO  Base:388 - Click on  logfile 
+2014-02-20 12:20:21 INFO  Base:388 - Click on  share 
+2014-02-20 12:25:02 INFO  Base:200 - App is Launched
+2014-02-20 12:25:05 INFO  Base:202 - Waiting 3000 seconds
+2014-02-20 12:25:07 INFO  Base:388 - Click on  log_clear 
+2014-02-20 12:25:07 INFO  Base:523 - Click on button
+2014-02-20 12:25:08 INFO  Base:388 - Click on  Record 
+2014-02-20 12:25:10 INFO  Base:319 - Waiting2000
+2014-02-20 12:25:12 INFO  Base:388 - Click on  recording 
+2014-02-20 12:25:12 INFO  Base:523 - Click on button
+2014-02-20 12:25:14 INFO  Base:388 - Click on  App 
+2014-02-20 12:25:15 INFO  Base:388 - Click on  signin 
+2014-02-20 12:25:19 INFO  Base:419 - Entering data in  FN 
+2014-02-20 12:25:24 INFO  Base:419 - Entering data in  LN 
+2014-02-20 12:25:28 INFO  Base:419 - Entering data in  Email 
+2014-02-20 12:25:29 INFO  Base:523 - Click on button
+2014-02-20 12:25:30 INFO  Base:388 - Click on  signin1 
+2014-02-20 12:25:31 INFO  Base:388 - Click on  Startmeeting 
+2014-02-20 12:25:36 INFO  Base:419 - Entering data in  Code 
+2014-02-20 12:25:36 INFO  Base:523 - Click on button
+2014-02-20 12:25:38 INFO  Base:388 - Click on  Startmeeting1 
+2014-02-20 12:26:08 INFO  Base:319 - Waiting30000
+2014-02-20 12:26:08 INFO  Base:586 - Tap on the screen
+2014-02-20 12:26:08 INFO  Base:586 - Tap on the screen
+2014-02-20 12:26:10 INFO  Base:319 - Waiting2000
+2014-02-20 12:26:11 INFO  Base:565 - Flick on the screen
+2014-02-20 12:26:12 INFO  Base:388 - Click on  invite 
+2014-02-20 12:26:13 INFO  Base:388 - Click on  Email1 
+2014-02-20 12:26:14 INFO  Base:388 - Click on  Gmail 
+2014-02-20 12:26:21 INFO  Base:419 - Entering data in  To 
+2014-02-20 12:26:22 INFO  Base:388 - Click on  send 
+2014-02-20 12:26:24 INFO  Base:319 - Waiting2000
+2014-02-20 12:26:27 INFO  Base:178 - Browser opened
+2014-02-20 12:26:31 INFO  Base:180 - Url has opened
+2014-02-20 12:26:31 INFO  Base:182 - Waiting for 10 Seconds
+2014-02-20 12:26:31 INFO  Base:184 - Browser is maximized
+2014-02-20 12:26:33 INFO  Base:319 - Waiting2000
+2014-02-20 12:26:34 INFO  Base:419 - Entering data in  Email2 
+2014-02-20 12:26:35 INFO  Base:419 - Entering data in  password 
+2014-02-20 12:26:37 INFO  Base:388 - Click on  signIn2 
+2014-02-20 12:26:57 INFO  Base:319 - Waiting20000
+2014-02-20 12:27:01 INFO  Base:188 - Page has Refreshed
+2014-02-20 12:27:05 INFO  Base:388 - Click on  inbox 
+2014-02-20 12:27:07 INFO  Base:319 - Waiting2000
+2014-02-20 12:27:09 INFO  Base:388 - Click on  link 
+2014-02-20 12:27:09 INFO  Base:548 - Text file created successfully
+2014-02-20 12:27:11 INFO  Base:319 - Waiting2000
+2014-02-20 12:27:14 INFO  Base:200 - App is Launched
+2014-02-20 12:27:17 INFO  Base:202 - Waiting 3000 seconds
+2014-02-20 12:27:18 INFO  Base:523 - Click on button
+2014-02-20 12:27:19 INFO  Base:388 - Click on  Recstop 
+2014-02-20 12:27:20 INFO  Base:523 - Click on button
+2014-02-20 12:27:21 INFO  Base:388 - Click on  data 
+2014-02-20 12:27:22 INFO  Base:388 - Click on  Allfiles 
+2014-02-20 12:27:23 INFO  Base:388 - Click on  sdcard 

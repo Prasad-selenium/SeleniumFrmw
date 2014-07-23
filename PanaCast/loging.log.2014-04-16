@@ -1,0 +1,14 @@
+2014-04-16 12:27:18 INFO  Base:250 - App package is com.altia.panacast
+2014-04-16 12:27:18 INFO  Base:252 - App activity is com.altia.panacast.StartingActivity
+2014-04-16 12:27:22 INFO  Base:254 - App is Launched
+2014-04-16 12:27:22 INFO  Base:256 - Waiting 2000 seconds
+2014-04-16 12:27:23 INFO  Base:418 - Click on  signin 
+2014-04-16 12:27:27 INFO  Base:449 - Entering data in  FN 
+2014-04-16 12:27:31 INFO  Base:449 - Entering data in  LN 
+2014-04-16 12:27:35 INFO  Base:449 - Entering data in  Email 
+2014-04-16 12:27:36 INFO  Base:553 - Click on button
+2014-04-16 12:27:38 INFO  Base:418 - Click on  login 
+2014-04-16 12:27:40 INFO  Base:418 - Click on  Startmeeting 
+2014-04-16 12:27:44 INFO  Base:449 - Entering data in  Code 
+2014-04-16 12:27:45 INFO  Base:553 - Click on button
+2014-04-16 12:27:47 INFO  Base:418 - Click on  Startmeeting1 

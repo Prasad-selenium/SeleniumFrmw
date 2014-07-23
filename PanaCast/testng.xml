@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite to test Panacast" parallel="tests">
+	<test name="PanaCast" preserve-order="true">
+		 <classes>
+			 <class name="driverscript.DriverScript" ></class> 
+			<!-- <class name="com.projectname.scripts.Mail" ></class> --> 
+		</classes>
+	</test>
+</suite>
